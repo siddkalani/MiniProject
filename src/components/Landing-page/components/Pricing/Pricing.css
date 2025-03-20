@@ -1,0 +1,92 @@
+/* Pricing.css */
+
+.pricing-container {
+    margin-top: 5rem;
+  }
+  
+  .pricing-title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .pricing-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pricing-option {
+    width: 100%;
+    max-width: calc(100% / 2);
+    padding: 0.5rem;
+  }
+  
+  .pricing-card {
+    border: 1px solid #4a5568;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+  }
+  
+  .pricing-card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .pricing-popular {
+    background-image: linear-gradient(to right, #ed8936, #e53e3e);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+  
+  .pricing-card-price {
+    font-size: 2rem;
+  }
+  
+  .pricing-currency {
+    font-size: 1rem;
+  }
+  
+  .pricing-features {
+    margin-top: 1.5rem;
+  }
+  
+  .pricing-feature {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .pricing-check-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .pricing-feature-text {
+    margin-left: 0.5rem;
+  }
+  
+  .pricing-subscribe-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #e53e3e; */
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    /* background-color: transparent; */
+    border: 2px solid #ed8936;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .pricing-subscribe-btn:hover {
+    background-color: #ed8936;
+    color: #fff;
+  }
+  

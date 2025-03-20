@@ -1,0 +1,84 @@
+/* Workflow.css */
+
+.workflow-container {
+    margin-top: 5rem;
+  }
+  
+  .workflow-title {
+    font-size: 1.875rem;
+    line-height: 1.2;
+    text-align: center;
+    /* margin-top: 2rem; */
+  }
+  
+  .gradient-text {
+    background-image: linear-gradient(to right, #ed8936, #f56565); /* Equivalent to bg-gradient-to-r from-orange-500 to-orange-800 */
+    color: transparent; /* Equivalent to text-transparent */
+    -webkit-background-clip: text; /* Equivalent to bg-clip-text */
+    background-clip: text; /* Equivalent to bg-clip-text */
+  }
+  
+  .workflow-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .image-container {
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 50%;
+  }
+  
+  .code-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .checklist-container {
+    padding-top: 3rem;
+    width: 100%;
+    max-width: 80%;
+    /* background-color: #f56565; */
+  }
+  
+  .checklist-item {
+    display: flex;
+    /* gap: 5rem; */
+    /* background-color: #ed8936; */
+    /* width: 90rem; */
+    margin-bottom: 1.5rem;
+  }
+  
+  .circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    background-color: #1a202c;
+    height: 2.5rem;
+    width: 4rem;
+    border-radius:40px;
+    height: 3rem;
+    width: 3rem;
+  }
+  
+  .item-details {
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+  }
+  
+  .item-title {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .item-description {
+    font-size: 1rem;
+    color: #a0aec0;
+  }
+  
